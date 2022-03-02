@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-theta = np.arange(0, 2*np.pi, 0.01)
+theta = np.arange(0, 4*np.pi, 0.01)
 r = 2 * np.cos(2.5*theta) * np.cos(5*theta)
 
 fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
